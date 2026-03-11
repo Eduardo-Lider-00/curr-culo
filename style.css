@@ -1,0 +1,42 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --cor-principal: #1df700;
+    --cor-escuro: #0f658d;
+    --cor-claro: #cff6ff;
+    --cor-cinza: #6f95b2;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#body {
+    background-color: var(--cor-principal);
+}
+.lead {
+    font-weight: 700;
+}
+#rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition: 0.3s ease;
+
+}
+#ancora:hover {
+    color: var(--cor-claro);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Habilidades:hover .badge {
+    background-color: var(--cor-branco) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
