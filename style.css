@@ -19,6 +19,9 @@ body {
 .lead {
     font-weight: 700;
 }
+.titulo_habilidades {
+    font-size: 25px;
+}
 #rodape {
     background-color: var(--cor-preto);
     color: var(--cor-branco);
